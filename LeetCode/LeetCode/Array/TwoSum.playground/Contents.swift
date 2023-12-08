@@ -5,17 +5,20 @@ class Solution {
     
     var rootIndex = 0
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-        var value = 0
+        var value: Int = 0
         var newNums = [Int]()
         for i in 0..<nums.count {
             value += nums[i]
-            if value == target {
+            if value == target && newNums.count > 0 {
                 newNums = [rootIndex, i]
+                break
             } else {
+                let idx = i >= rootIndex ? rootIndex : i
                 value = nums[rootIndex]
+                newNums = [value]
             }
         }
-        if !newNums.isEmpty {
+        if newNums.count == 2 {
             return newNums
         } else {
             rootIndex += 1
