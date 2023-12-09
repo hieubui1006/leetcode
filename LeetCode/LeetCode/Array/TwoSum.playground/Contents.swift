@@ -25,6 +25,18 @@ class Solution {
             return twoSum(nums, target)
         }
     }
+    
+    /// Solution twosum
+    func sumII(_ nums: [Int], _ target: Int) -> [Int] {
+        for i in 0..<nums.count {
+            for j in i + 1..<nums.count {
+                if nums[j] == target - nums[i] {
+                    return [i,j]
+                }
+            }
+        }
+        return []
+    }
 }
 
 
