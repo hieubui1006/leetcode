@@ -8,13 +8,32 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("\(getConcatenation([1,2,3,4]))")
+        maxAscendingSum([100,10,1])
         // Do any additional setup after loading the view.
     }
     
+    func maxAscendingSum(_ nums: [Int]) -> Int {
+        var value = 0
+        var datas = [Int]()
+        for item in nums {
+            if value < item {
+                value = item
+                datas.append(value)
+            } else {
+                datas = [item]
+                value = item
+            }
+        }
+        
+        value = 0
+        for item in datas {
+            value += item
+        }
+        return value
+    }
     
 }
 
