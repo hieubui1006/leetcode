@@ -43,7 +43,23 @@ class Solution {
         }
         return x
     }
+    
+    func shuffle(_ nums: [Int], _ n: Int) -> [Int] {
+        var arrayTemp = [Int]()
+        let countNew = Int(nums.count / 2)
+        for i in 0..<countNew {
+            guard nums[countNew] == n else { break }
+            let index = i + countNew
+            arrayTemp.append(nums[i])
+            arrayTemp.append(nums[index])
+        }
+        return arrayTemp
+    }
 }
 
 
 let sol = Solution().finalValueAfterOperations(["--X","X++","X++"])
+
+
+
+let sol1 = Solution().shuffle([2,5,1,3,4,7], 3)
