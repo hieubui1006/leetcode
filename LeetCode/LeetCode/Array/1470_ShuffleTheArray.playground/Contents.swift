@@ -20,6 +20,9 @@ class Solution {
         }
         return arrayTemp
     }
+    
 }
 
 let sol = Solution().shuffle([1,2,3,4,4,3,2,1], 4)
+
+let sol1 = Solution().sortPeople(["A","B","C","D"], [1,2,5,4])
