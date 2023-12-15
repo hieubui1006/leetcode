@@ -57,6 +57,7 @@
 		B248C59C2B2375CD00D89291 /* LeetCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B27978A22B2C9E6A00023323 /* 1672_RichestCustomerWealth .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1672_RichestCustomerWealth .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B27978A32B2CACF900023323 /* 2341_MaximumNumberOfPairsInArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2341_MaximumNumberOfPairsInArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B27978A42B2CBD3300023323 /* 2475_NumberOfUnequalTripletsInArray .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2475_NumberOfUnequalTripletsInArray .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B2A137B82B28BCE1007A2CAA /* 1470_ShuffleTheArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1470_ShuffleTheArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B2A137B92B28C27E007A2CAA /* 2942_FindWordsContainingCharacter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2942_FindWordsContainingCharacter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B2CB5F0F2B23778A00EA63AC /* ArrayPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ArrayPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -156,6 +157,7 @@
 				B2050C092B2B6A3E00222D59 /* 2418_SortThePeople .playground */,
 				B27978A22B2C9E6A00023323 /* 1672_RichestCustomerWealth .playground */,
 				B27978A32B2CACF900023323 /* 2341_MaximumNumberOfPairsInArray.playground */,
+				B27978A42B2CBD3300023323 /* 2475_NumberOfUnequalTripletsInArray .playground */,
 			);
 			path = Array;
 			sourceTree = "<group>";
